@@ -1,0 +1,52 @@
+.single-post {
+    .detail {
+        &.title {
+            text-transform: capitalize;
+        }
+    }
+}
+
+.single-author-post {
+    @extend .p-2;
+    h2 {
+        @extend .d-none;
+    }
+    &:first-of-type {
+        h2 {
+            @extend .d-block;
+            @extend .pb-3;
+            @extend .bg-white;
+            margin: -.5rem;
+            @extend .mb-2;
+            @extend .text-center;
+       }
+    }
+    background-color: aqua;
+    &:nth-of-type(even) {
+        background-color: antiquewhite;
+    }
+}
+
+.authors {
+    article {
+        h2 {
+            color: var(--bs-success)
+        }
+        p {
+            @extend .mb-1;
+            a {
+                @extend .ps-1;
+                @extend .text-lowercase;
+            }
+        }
+        dl {
+            dd {
+                @extend .ps-3;                
+            }
+        }
+        &:not(:last-of-type) {
+            border-bottom: 1px solid grey;
+            @extend .mb-3;
+        }
+    }
+}

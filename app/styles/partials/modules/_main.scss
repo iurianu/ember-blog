@@ -1,0 +1,9 @@
+@import './templates/blog';
+@import './elements/hero';
+@import './elements/post';
+
+main {
+    min-height: $var-main-height;
+    overflow-x: hidden;
+    margin-bottom: $var-footer-height;
+}
