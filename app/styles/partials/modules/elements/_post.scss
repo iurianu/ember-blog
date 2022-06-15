@@ -7,7 +7,8 @@
 }
 
 .single-author-post {
-    @extend .p-2;
+    @extend .container;
+    @extend .py-2;
     h2 {
         @extend .d-none;
     }
@@ -16,7 +17,7 @@
             @extend .d-block;
             @extend .pb-3;
             @extend .bg-white;
-            margin: -.5rem;
+            margin: -.5rem -1rem;
             @extend .mb-2;
             @extend .text-center;
        }

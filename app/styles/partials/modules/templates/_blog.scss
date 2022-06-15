@@ -9,15 +9,18 @@
         @extend .flex-md-row;
         .card {
             max-width: 95%;
+            flex: 0 0 95%;
             @extend .mb-3;
         }
         @include media-min-768px {
             .card {
+                flex: 0 0 48%;
                 max-width: 48%;
             }
         }
         @include media-min-992px {
             .card {
+                flex: 0 0 32.5%;
                 max-width: 32.5%;
             }
         }
