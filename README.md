@@ -27,3 +27,7 @@ You will need the following things properly installed on your computer.
 * I changed styling to SCSS, by installing `ember-cli-sass` which also installs `node-sass`
 * I added Bootstrap 5 as CSS Framework, and configured the app to use it
 * I added more fields for user, i.e. `address`, and `company`
+
+## Live Version
+
+> You can see this app live [HERE](https://iurianu-ember-blog.netlify.app/blog)
